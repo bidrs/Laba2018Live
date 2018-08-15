@@ -1,0 +1,28 @@
+#header-sticky-wrapper {
+	height: 100vh;
+}
+.slider-logo {
+	left: 18px;
+	position: absolute;
+	top: 10px;
+	z-index: 999;
+}
+
+.slider-logo img {
+	width: 90%;
+}
+
+@media only screen and (min-width: 1171px) and (max-width: 1920px){
+  .slider-logo {
+	left: -8px;
+	z-index: 999;
+	}
+
+	.slider-logo img {
+		width: 100%;
+	}
+}
+
+
+
+
